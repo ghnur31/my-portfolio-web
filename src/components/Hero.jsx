@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useEffect } from "react";
 import Typed from "typed.js";
+import resume from "../../public/pdf/cv_ghusan.pdf"
 
 const Hero = () => {
   useEffect(() => {
@@ -51,12 +52,13 @@ const Hero = () => {
           </a>
         </div>
         <div className="justify-start items-center">
-          <button
+          <a 
             className="my-button hover:scale-105 transition duration-300"
-            href=""
+            href={resume}
+            download
           >
             Download CV
-          </button>
+          </a>
         </div>
       </div>
 
