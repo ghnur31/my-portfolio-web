@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useEffect } from "react";
 import Typed from "typed.js";
-import resume from "../../public/pdf/cv_ghusan.pdf"
+import resume from "../assets/cv_ghusan.pdf";
 
 const Hero = () => {
   useEffect(() => {
@@ -33,29 +33,50 @@ const Hero = () => {
           And I`m a <span id="typed-text" className="text-main"></span>
         </h3>
         <p className="text-md mt-2">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam id
-          placeat, iusto blanditiis numquam, voluptatum saepe, facilis
-          voluptatem autem nisi culpa commodi?
+          Seseorang yang antusias dalam pengembangan aplikasi berbasis web,
+          menggunakan teknologi MEVN untuk pengembangan Fullstack web, senang
+          mempelajari skill baru seperti desain UI/UX, desain grafis, dan Machine
+          Learning.
         </p>
         <div className="mt-5 mb-2">
-          <a className="icon-sosmed" href="">
+          <a
+            className="icon-sosmed"
+            href="https://www.facebook.com/GhusanHidayatNur/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FontAwesomeIcon icon="fa-brands fa-facebook" />
           </a>
-          <a className="icon-sosmed" href="">
+          <a
+            className="icon-sosmed"
+            href="https://www.instagram.com/ghnur_31/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FontAwesomeIcon icon="fa-brands fa-instagram" />
           </a>
-          <a className="icon-sosmed" href="">
+          <a
+            className="icon-sosmed"
+            href="https://github.com/ghnur31"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FontAwesomeIcon icon="fa-brands fa-github" />
           </a>
-          <a className="icon-sosmed" href="">
+          <a
+            className="icon-sosmed"
+            href="https://www.linkedin.com/in/ghusan-hidayat-nur/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FontAwesomeIcon icon="fa-brands fa-linkedin" />
           </a>
         </div>
         <div className="justify-start items-center">
-          <a 
+          <a
             className="my-button hover:scale-105 transition duration-300"
             href={resume}
-            download
+            download="cv_ghusan.pdf"
           >
             Download CV
           </a>
@@ -63,7 +84,7 @@ const Hero = () => {
       </div>
 
       <div className="col px-10 md:px-0 pt-12">
-        <img src="img/ghusan.png" alt="mypic" />
+        <img src="img/ghusan.png" alt="mypic" className="object-cover"/>
       </div>
     </div>
   );

@@ -12,11 +12,11 @@
 }
 
 .icon-sosmed{
-  @apply mr-7 text-main px-3 py-2 hover:text-white hover:bg-main rounded-full text-2xl transition
+  @apply mr-7 text-main px-3 py-2 hover:text-white hover:bg-main rounded-full text-4xl md:text-3xl transition
 }
 
 .my-button{
-  @apply px-4 py-2 bg-main rounded-xl inline-block mt-4 mx-auto text-white font-bold shadow-cl shadow-main
+  @apply px-8 py-4 bg-main rounded-xl inline-block mt-4 mx-auto text-white font-bold shadow-cl shadow-main
 }
 
 .navbar-fixed {
@@ -26,4 +26,12 @@
 
 .card-component{
   @apply flex flex-col px-4 py-6 justify-center items-center bg-white dark:bg-txdark rounded-2xl overflow-hidden shadow-2xl dark:shadow-white dark:shadow-lg dark:border-main hover:cursor-pointer hover:scale-105 transition duration-300;
+}
+
+.container-card-img{
+  @apply relative w-full overflow-hidden
+}
+
+.card-img {
+  @apply w-full h-auto
 }

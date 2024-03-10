@@ -4,7 +4,7 @@ const Contact = () => {
       id="contact"
       className="col flex flex-col justify-center items-center px-8 md:px-20 py-24 dark:bg-txdark"
     >
-      <h2 className="text-5xl text-center font-bold mb-16">Contact</h2>
+      <h2 className="text-5xl text-center font-bold mb-16 text-main">Contact</h2>
 
       <div className="flex flex-col w-full lg:flex-row justify-center gap-10">
         <div className="w-full lg:w-1/2 items-start">
